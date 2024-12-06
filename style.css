@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #eedbbf;
+    background-color: #67191f;
+  }
+  
+  .layout_padding {
+    padding: 75px 0;
+  }
+  
+  .layout_padding2 {
+    padding: 45px 0;
+  }
+  
+  .img-box{
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  .layout_padding2-top {
+    padding-top: 45px;
+  }
+
+  .header_section {
+    background-color: #003049; /* Light background color */
+    padding: 20px 0; /* Padding for top and bottom */
+    border-radius: 20px;
+}
+
+.p{
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between brand and nav items */
+    align-items: center; /* Center items vertically */
+}
+
+
+.navbar-nav {
+    display: flex; /* Display nav items in a row */
+}
+
+.nav-item {
+    margin-left: 20px; /* Space between nav items */
+}
+
+.nav-link {
+    color: #fdf0d5; /* Dark text color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px;
+    padding: 30px; /* Padding for clickable area */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-link:hover {
+    color: #007bff70; /* Change color on hover */
+}
+
+.benefits{
+        background-color: #ffcf99; /* White background for the box */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px; /* Padding inside the box */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        max-width: 800px; /* Maximum width of the box */
+        margin: 20px auto; /* Center the box horizontally with margin */
+        text-align: center; /* Center text inside the box */
+    }
+    
+    
+    .row1, .row2, .row3 {
+        margin: 15px 0; /* Space between rows */
+    }
+    
+    h2 {
+        font-size: 24px; /* Font size for headings */
+        color: #92140c; /* Dark text color */
+    }
+
+    .cta-header{
+        font-size: 24px; /* Font size for headings */
+        color: #f5dfbb; /* Dark text color */
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .button-container {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: center; /* Center horizontally */
+        margin-top: 20px; /* Space above the button container */
+    }
+
+    .btn {
+        display: inline-block; /* Makes the link behave like a button */
+        background-color: #d9d7bf; /* Button background color */
+        color: #a61b26; /* Text color */
+        padding: 20px 20px; /* Padding for the button */
+        border: none; /* Remove border */
+        border-radius: 12px; /* Rounded corners */
+        text-decoration: none; /* Remove underline */
+        font-size: 20px; /* Font size */
+        font-weight: bold;
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        margin-top: 20px; /* Space above the button */
+
+    }
+    
+    .btn:hover {
+        background-color: #bfac95; /* Darker color on hover */
+    }
